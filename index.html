@@ -8,21 +8,33 @@
   <header>
     <h1>Welcome to the Tropical Paradise</h1>
   </header>
-
+  <head>
+    <title>Button Click Detection</title>
+    <script>
+      function handleClick() {
+        window.location.href = "page2.html";
+      }
+    </script>
+  </head>
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Destinations</a></li>
       <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="page2.html">Contact</a></li>
     </ul>
   </nav>
-
+  
   <main>
+  
+
     <section>
       <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h6>
+        <button onclick="handleClick()">Click me!</button>
+      <h6>
     </section>
 
     <section>
@@ -30,14 +42,14 @@
       <ul>
         <li><a href="#">Destination 1</a></li>
         <li><a href="#">Destination 2</a></li>
-        <li><a href="#">Destination 3</a></li>
+        <li><a href="https://www.youtube.com/watch?v=YBPAOvu2Rhs">youtube</a></li>
       </ul>
     </section>
 
     <section>
       <h2>Photo Gallery</h2>
       <div class="gallery">
-        <img src="image1.jpg" alt="Image 1">
+        <img src="Image-C.jpg" alt="Image 1">
         <img src="image2.jpg" alt="Image 2">
         <img src="image3.jpg" alt="Image 3">
       </div>
@@ -49,7 +61,6 @@
         <input type="text" placeholder="Name">
         <input type="email" placeholder="Email">
         <textarea placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
       </form>
     </section>
   </main>
