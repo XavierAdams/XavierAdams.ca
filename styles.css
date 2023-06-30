@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #ffa500;
+    background-color: #ff8080;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -44,14 +44,7 @@ body {
   }
   
   section h2 {
-    color: #ffa500;
-  }
-  
-  .gallery img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    margin: 5px;
+    color: #ff8080;
   }
   
   footer {
