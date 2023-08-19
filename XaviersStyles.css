@@ -35,5 +35,25 @@ div
     text-align: center;
     
 }
+.DIV2
+{
+  background-color: #b1dc07;
+  text-align: center;
+  display: block;
+}
+.center
+{
+  background-color: #c4c8b5;
+  text-align: center;
+}
 
-  
+.youtube
+{
+  background-color: #25d7d5;
+  text-align: right;
+}
+.ball
+{
+  width:auto;
+  height:auto;
+}
