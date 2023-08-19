@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d78f8f;
+    background-image: url("BG.jpg");
+  background-color: #cccccc;
     margin: 30px;
     padding: 0;
   }
   header {
-    background-color: #a71412;
+    background-color: #1e059a;
     padding: 30px;
     text-align: center;
     color: #ffffff;
@@ -31,7 +32,7 @@ body {
   }
 div
 {
-    background-color: #4c1495;
+    background-color: #030006;
     text-align: center;
     
 }
