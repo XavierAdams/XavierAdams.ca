@@ -36,16 +36,19 @@ div
     text-align: center;
     
 }
-.DIV2
+.Div2
 {
   background-color: #b1dc07;
   text-align: center;
-  display: block;
+  display: inline;
 }
 .center
 {
-  background-color: #c4c8b5;
-  text-align: center;
+  background-color: #05538b;
+  align-items: center;
+  padding: 50px;
+  margin:auto;
+  display: inline;
 }
 
 .youtube
@@ -57,4 +60,16 @@ div
 {
   width:auto;
   height:auto;
+}
+.GalleryBTN
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
 }
